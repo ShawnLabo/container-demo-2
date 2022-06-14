@@ -1,5 +1,5 @@
 # ベースイメージとして、Docker HubからPythonイメージを利用
-FROM python:3.10
+FROM python:3.9
 
 ENV PORT 8080
 WORKDIR /app
